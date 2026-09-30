@@ -5,7 +5,6 @@
 terraform*
 
 # Local environment secrets
-.env
 
 # Python bytecode
 **/__pycache__/
