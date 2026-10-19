@@ -7,7 +7,7 @@ meraki:
         - name: !env org_name
           managed: false
           login_security:
-            enforce_password_expiration: yes
+            enforce_password_expiration: true
             password_expiration_days: 40
             enforce_different_passwords: true
             num_different_passwords: 3
